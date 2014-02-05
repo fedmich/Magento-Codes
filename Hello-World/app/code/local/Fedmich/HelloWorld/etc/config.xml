@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <fedmich_helloworld>
+            <version>
+                0.1.0
+            </version>
+        </fedmich_helloworld>
+    </modules>
+	
+	<frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Fedmich_HelloWorld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+    </frontend>
+	
+</config>
